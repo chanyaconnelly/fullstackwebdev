@@ -16,7 +16,7 @@ body {
 }
 
 main {
-   padding: 1.5rem 1rem 4rem;
+   padding: 1.5rem 1rem 3.75rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -372,7 +372,7 @@ footer p {
  
 .footer-creator-name a {
    color: #68707f;
-   margin-left: 8px;
+   margin-left: 9px;
 }
 
 .footer-creator-name a:hover {
@@ -405,7 +405,7 @@ footer p {
    color: #898d9b;
    font-size: 80%;
    opacity: .5;
-   padding: 0 8px;
+   padding: 0 9px;
 }
 
 .footer-btn-group {
