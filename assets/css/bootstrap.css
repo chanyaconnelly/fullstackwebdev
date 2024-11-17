@@ -1,4 +1,5 @@
 .accordion-item {
+  background-color: rgb(255 255 255 / 100%);
   border: none;
   border-radius: 9px !important;
   box-shadow: 2px 6px 6px rgb(0 0 0 / 5%);
@@ -15,19 +16,21 @@
 }
 
 .accordion-button {
+  background-color: transparent;
+  background-color: white;
   border-left: 0;
   border-radius: 9px !important;
-  color: #4e5461;
+  color: #5e646f;
   font-size: .95rem;
   font-weight: 500;
-  padding: .8rem 1.5rem .675rem !important;
+  padding: .8rem 2rem .675rem !important;
   transition: all .15s ease;
 }
 
 .accordion-button:hover {
   border-left: 3px solid #7f9ee1;
   color: #3c404b;
-  padding: .8rem 1.5rem .675rem 1.875rem !important;
+  padding: .8rem 2rem .675rem 2.3rem !important;
 }
 
 .accordion-button:focus {
@@ -39,6 +42,7 @@
   border-bottom-left-radius: 0 !important;  
   border-bottom-right-radius: 0 !important;
   color: #444a55;
+  color: #5e646f;
 }
 
 .accordion-button.collapsed:hover {
@@ -55,5 +59,17 @@
 }
 
 .accordion-body {
-  padding: 1.25rem 1.5rem;
+  padding: 2rem;
+}
+
+.accordion-body>*:last-child,
+.topic-screenshot-list>*:last-child,
+.topic-screenshot-list a:last-child>img {
+  margin-bottom: 0;
+}
+
+.accordion-body h2 {
+  font-size: 1.375rem;
+  margin-bottom: 1.25rem;
+  margin-top: 0;
 }
